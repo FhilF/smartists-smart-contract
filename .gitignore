@@ -1,0 +1,10 @@
+
+settings/Mainnet.toml
+settings/Testnet.toml
+settings/DevnetSample.toml
+contracts/testing.clar
+tests/testing_tests.ts
+history.txt
+key.json
+scripts
+node_modules

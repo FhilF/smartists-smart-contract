@@ -1,0 +1,31 @@
+{
+  "name": "smartists-smart-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocknet-deploy": "cross-env MAINNET=false MOCKNET=true node ./scripts/deployer.js",
+    "testnet-deploy": "cross-env MAINNET=false MOCKNET=false node ./scripts/deployer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FhilF/smartists-smart-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FhilF/smartists-smart-contract/issues"
+  },
+  "homepage": "https://github.com/FhilF/smartists-smart-contract#readme",
+  "dependencies": {
+    "@stacks/blockchain-api-client": "^4.0.1",
+    "@stacks/network": "^4.2.1",
+    "@stacks/transactions": "^4.2.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
